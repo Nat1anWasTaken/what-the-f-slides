@@ -204,9 +204,7 @@ layout: default
 
 - Everyday reactions can become news stories.
 - Headlines can give the same event very different emphasis.
-- Comparing coverage helps us see what each headline leaves out.
-
-These examples illustrate editorial choices; they do not establish an outlet-wide bias rating.
+- Comparing coverage helps us see what each news leaves out.
 
 ---
 layout: fact
