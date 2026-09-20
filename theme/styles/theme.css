@@ -623,11 +623,18 @@ body,
 
 /* News comparison slides */
 
-.breakfast-example { display: grid; grid-template-columns: 1.5fr 1fr; gap: 28px; align-items: center; margin-top: 24px; }
+.breakfast-example { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr) 172px; gap: 22px; align-items: center; margin-top: 24px; }
 .breakfast-example img { width: 100%; height: 355px; object-fit: contain; object-position: top; border: 1px solid #dadce0; }
 .breakfast-example .translation-label { font-size: 13px; color: #5f6368; }
 .breakfast-example .translated-headline { font-size: 23px; line-height: 1.4; margin: 14px 0 20px; }
-.breakfast-example a, .context-sources { font-size: 13px; }
+.forum-content { display: grid; grid-template-columns: minmax(0, 1fr) 156px; gap: 40px; }
+.context-sources { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.forum-content .forum-positions { gap: 24px; margin: 30px 0; }
+.slidev-layout.ground-demo-slide { padding: 0; }
+.ground-demo { display: grid; grid-template-columns: minmax(0, 1fr) 220px; height: 100%; }
+.ground-demo iframe { width: 100%; height: 100%; border: 0; }
+.ground-demo aside { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; border-left: 1px solid var(--google-border); }
+.ground-demo aside h2 { font-size: 24px; }
 .forum-positions { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; margin: 28px 0; }
 .forum-positions > div { border-left: 3px solid #4285f4; padding-left: 18px; }
 .forum-positions h2 { font-size: 25px; margin-bottom: 0; }

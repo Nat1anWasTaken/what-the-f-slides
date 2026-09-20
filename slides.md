@@ -46,8 +46,8 @@ layout: default
     <h2>EBC News</h2>
     <p class="translation-label">English translation</p>
     <p class="translated-headline">“Strawberry-and-egg toast for breakfast! A puzzled server, and internet users share off-menu combinations.”</p>
-    <a href="https://news.ebc.net.tw/news/living/162524" target="_blank">Original article ↗</a>
   </div>
+  <QrCode url="https://news.ebc.net.tw/news/living/162524" label="Original article" />
 </div>
 
 <!--
@@ -73,8 +73,8 @@ layout: default
     <h2>TVBS News</h2>
     <p class="translation-label">Shortened English translation</p>
     <p class="translated-headline">“Is strawberry toast with egg gross? Food lovers share even wilder combinations.”</p>
-    <a href="https://news.tvbs.com.tw/life/1311826" target="_blank">Original article ↗</a>
   </div>
+  <QrCode url="https://news.tvbs.com.tw/life/1311826" label="Original article" />
 </div>
 
 <!--
@@ -89,6 +89,9 @@ layout: default
 
 <p class="context-date">August 13, 2025 · Taiwan’s nuclear restart debate</p>
 
+<div class="forum-content">
+<div>
+
 Taiwan was preparing to vote on restarting its third nuclear power plant, **subject to a safety review**.
 
 <div class="forum-positions">
@@ -98,7 +101,12 @@ Taiwan was preparing to vote on restarting its third nuclear power plant, **subj
 
 The next three reports cover **this same public forum**.
 
-<div class="context-sources"><a href="https://www.cna.com.tw/news/aipl/202508135003.aspx">CNA · Context and full-event video</a> · <a href="https://news.pts.org.tw/article/765392">PTS · Coverage</a></div>
+</div>
+<div class="context-sources">
+  <QrCode url="https://www.cna.com.tw/news/aipl/202508135003.aspx" label="CNA · Full event" :size="136" />
+  <QrCode url="https://news.pts.org.tw/article/765392" label="PTS · Coverage" :size="136" />
+</div>
+</div>
 
 <!--
 The forum was on August 13, before the August 23 referendum. This slide describes the proposed restart, not the referendum result.
@@ -207,9 +215,14 @@ layout: fact
 # What can we do?
 
 ---
-layout: iframe
-url: https://ground.news/
+layout: default
+class: ground-demo-slide
 ---
+
+<div class="ground-demo">
+  <iframe src="https://ground.news/" title="Ground News website" />
+  <aside><h2>Ground News</h2><QrCode url="https://ground.news/" label="Explore the site" /></aside>
+</div>
 
 ---
 layout: default
