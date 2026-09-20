@@ -254,8 +254,6 @@ layout: default
 - Let readers compare headlines, sources, and timelines.
 - Show Taiwan’s political context beyond a left–right label.
 
-**Cost goal:** Reduce manual review through automated grouping.
-
 ---
 layout: default
 ---
